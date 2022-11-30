@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<style>
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 20px;
+        color: aliceblue;
+
+    }
+
+    .box {
+        width: 30%;
+        margin-left: 470px;
+        margin-top: 100px;
+        height: 30px;
+        background-color: white;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .addBtn {
+        background-color: red;
+    }
+
+    span {
+        color: white;
+    }
+
+    .set {
+        background-color: darkblue;
+        border-radius: 20px;
+        height: 610px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    button {
+        background-color: yellow;
+    }
+
+    button.action {
+        margin-left: 15px;
+        text-align: left;
+    }
+
+    .action {
+        margin-right: 15px;
+        text-align: left;
+    }
+
+    .main div {
+        display: flex;
+        align-items: flex-start;
+        align-content: flex-end;
+        justify-content: space-between;
+        width: 250px;
+    }
+</style>
+
+<body style="background-color:skyblue">
+    <div class="set">
+        <h1>Todo List</h1>
+
+        <div class="main">
+            <div>
+                <input type="text">
+                <button class="addBtn">Add Task</button>
+            </div>
+
+            <div>
+                <span type="text" class="subject">Java script</span>
+                <button type="button" class="action">Delete</button>
+            </div>
+            <div>
+                <span type="text" class="subject">Todo List</span>
+                <button type="button" class="action"> Delete</button>
+            </div>
+            <div>
+                <span type="text" class="subject">Project</span>
+                <button type="button" class="action"> Delete</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
